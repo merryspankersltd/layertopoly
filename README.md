@@ -1,6 +1,8 @@
 # layertopoly
 
-Exports a polygon layer to the Osmium/osmconvert .poly boundary format.
+__layertopoly__ is a qgis processing script.
+
+It exports a polygon layer to the Osmium/osmconvert .poly boundary format.
 
 Each feature becomes a named block. Multipolygons are supported:
 outer rings → positive numbers, inner rings (holes) → !number.
